@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/dev/jar/SpringExampleJar/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/dev/jar/SpringExampleJar/spring-aop-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/dev/jar/SpringExampleJar/spring-aspects-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/dev/jar/SpringExampleJar/spring-beans-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/dev/jar/SpringExampleJar/spring-context-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/dev/jar/SpringExampleJar/spring-context-support-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/dev/jar/SpringExampleJar/spring-core-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/dev/jar/SpringExampleJar/spring-expression-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/dev/jar/SpringExampleJar/spring-instrument-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/dev/jar/SpringExampleJar/spring-instrument-tomcat-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/dev/jar/SpringExampleJar/spring-jdbc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/dev/jar/SpringExampleJar/spring-jms-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/dev/jar/SpringExampleJar/spring-messaging-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/dev/jar/SpringExampleJar/spring-orm-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/dev/jar/SpringExampleJar/spring-oxm-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/dev/jar/SpringExampleJar/spring-test-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/dev/jar/SpringExampleJar/spring-tx-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/dev/jar/SpringExampleJar/spring-web-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/dev/jar/SpringExampleJar/spring-webmvc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/dev/jar/SpringExampleJar/spring-webmvc-portlet-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/dev/jar/SpringExampleJar/spring-websocket-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
