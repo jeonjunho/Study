@@ -7,7 +7,7 @@ public class MainApp {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("autowiredBeans.xml");
 
-        TextEditor te = (TextEditor) context.getBean("textEditor");
-        te.spellCheck();
+        TextEditor textEditor = (TextEditor) context.getBean("textEditor");
+        textEditor.spellCheck();
     }
 }

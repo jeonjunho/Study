@@ -3,22 +3,25 @@ package autowired;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class TextEditor {
-    // @Autowired
+    //MemberAutowired
+    @Autowired
     private SpellChecker spellChecker;
 
-    // @Autowired
-    // public void setSpellChecker(SpellChecker spellChecker) {
-    // this.spellChecker = spellChecker;
-    // }
+    //SetterAutowired
+//    @Autowired
+//    public void setSpellChecker(SpellChecker spellChecker) {
+//        this.spellChecker = spellChecker;
+//    }
 
-    @Autowired
-    public TextEditor(SpellChecker spellChecker) {
+    //ConstructorAutowired
+//    @Autowired
+//    public TextEditor(SpellChecker spellChecker) {
+//        this.spellChecker = spellChecker;
+//        System.out.println("Inside TextEditor constructor.");
+//    }
+
+    public TextEditor() {
         System.out.println("Inside TextEditor constructor.");
-        this.spellChecker = spellChecker;
-    }
-
-    public SpellChecker getSpellChecker() {
-        return spellChecker;
     }
 
     public void spellCheck() {
