@@ -13,7 +13,7 @@ public class Logging {
      * Following is the definition for a pointcut to select all the methods available. So advice will be called for all the
      * methods.
      */
-    @Pointcut("execution(* atAspectjBasedAOP.*.*(..))")
+    @Pointcut("execution(* aspectjBasedAOP.*.*(..))")
     private void selectAll() {
     }
 
