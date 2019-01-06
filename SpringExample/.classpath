@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="HelloWorld"/>
+	<classpathentry kind="src" path="@Required"/>
 	<classpathentry kind="src" path="@Qualifier"/>
 	<classpathentry kind="src" path="@Autowired"/>
 	<classpathentry kind="src" path="@AspectjBasedAOP"/>
